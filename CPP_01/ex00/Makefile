@@ -31,10 +31,10 @@ $(OBJ): 	| $(OBJ_DIR)
 $(OBJ_DIR):
 			@mkdir -p $(OBJ_DIR)
 			
-$(OBJ_DIR)/%.o		:	%.cpp
+$(OBJ_DIR)/%.o		:	%.cpp ${HEADER} Makefile
 					$(CC) $(CFLAG) -c $< -o $@
 
-$(NAME)	:	$(OBJ) ${HEADER} Makefile
+$(NAME)	:	$(OBJ) 
 			$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
 			@echo "\tCompiling...\t" [ $(NAME) ] $(SUCCESS)
 
