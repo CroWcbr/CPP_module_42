@@ -1,12 +1,12 @@
 #include "Karen.hpp"
 
-int main(void)
+int main(int argc, char **argv)
 {
 	Karen karen;
 
-	karen.complain("DEBUG");
-	karen.complain("INFO");
-	karen.complain("WARNING");
-	karen.complain("ERROR");
-	karen.complain("BLABLABLA");
+	if (argc == 2)
+		karen.complain(argv[1]);
+	else
+		std::cout << "No command" << std::endl;
+	return (0);
 }

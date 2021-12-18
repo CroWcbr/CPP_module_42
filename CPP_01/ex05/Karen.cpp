@@ -50,7 +50,8 @@ void Karen::complain(std::string level)
 		if (level == complaintLevels[i])
 		{
 			(this->*complaint[i])();
-			break ;
+			return ;
 		}
 	}
+	std::cout << "Wrong input" << std::endl;
 }
