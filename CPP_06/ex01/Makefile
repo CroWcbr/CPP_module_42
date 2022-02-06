@@ -29,7 +29,7 @@ $(OBJ_DIR):
 			@mkdir -p $(OBJ_DIR)
 
 $(OBJ_DIR)/%.o		:	%.cpp ${HEADER} Makefile
-					$(CC) $(CFLAG) -c $< -o $@
+					$(CC) $(CFLAGS) -c $< -o $@
 
 $(NAME)	:	$(OBJ)
 			$(CC) $(CFLAGS) $(OBJ) -o $(NAME)

@@ -22,8 +22,8 @@ public:
 	std::string const getName() const;
 	bool 		getSign() const;
 	void 		setSign();
-	int const	getMarkSign() const;
-	int const	getMarkDo() const;
+	int			getMarkSign() const;
+	int			getMarkDo() const;
 	void		isSign(const Bureaucrat &bur);
 
 	class GradeTooHighException: public std::exception

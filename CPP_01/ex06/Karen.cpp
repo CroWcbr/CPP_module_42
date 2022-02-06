@@ -47,7 +47,7 @@ void Karen::no_parameter(void)
 
 void Karen::filter(std::string level)
 {
-	int	i;
+	unsigned long	i;
 
 	std::string filtr_level[] = {"DEBUG", "INFO", "WARNING", "ERROR"};
 	for (i = 0; i < sizeof(filtr_level)/sizeof(filtr_level[0]); i++)

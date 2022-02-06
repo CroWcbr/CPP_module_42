@@ -12,8 +12,8 @@ private:
 	int		_sizeArray;
 public:
 	Array<T>( void ): 
-			_sizeArray(0), 
-			_array(NULL)
+			_array(NULL),
+			_sizeArray(0)
 	{
 		std::cout << "Default constructor called for " << this << std::endl;
 	}
@@ -34,8 +34,8 @@ public:
 	}
 
 	Array<T>( const Array<T> &origin ):
-		_sizeArray(0),
-		_array(NULL)		
+		_array(NULL),
+		_sizeArray(0)
 	{
 		std::cout << "Copy constructor called for " << this << std::endl;
 		*this = origin;

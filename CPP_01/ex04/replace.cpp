@@ -25,7 +25,7 @@ std::string	Replace::my_replace( std::string str )
 {
 	std::string result;
 	int start = 0;
-	int n;
+	unsigned long n;
 
 	while ((n = str.find(_s1, start)) != std::string::npos)
 	{

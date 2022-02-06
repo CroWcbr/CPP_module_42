@@ -33,7 +33,8 @@ int main(int, char**)
         if (mirror[i] != numbers[i])
         {
             std::cerr << "didn't save the same value!!" << std::endl;
-            retnotifications
+		}
+	}
     try
     {
         numbers[-2] = 0;

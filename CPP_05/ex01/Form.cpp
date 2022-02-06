@@ -31,12 +31,12 @@ void Form::setSign()
 	_sign = true;
 }
 
-int const Form::getMarkSign() const
+int Form::getMarkSign() const
 {
 	return _mark_sign;
 }
 
-int const Form::getMarkDo() const
+int Form::getMarkDo() const
 {
 	return _mark_do;
 }

@@ -43,12 +43,12 @@ void	Form::copySign(bool cpSign)
 	_sign = cpSign;
 }
 
-int const Form::getGradeSign() const
+int Form::getGradeSign() const
 {
 	return _grade_sign;
 }
 
-int const Form::getGradeExec() const
+int Form::getGradeExec() const
 {
 	return _grade_exec;
 }

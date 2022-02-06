@@ -9,8 +9,8 @@ Span::~Span()
 }
 
 Span::Span(const Span& origin):
-	_N(origin._N),
-	_sp(origin._sp)
+	_sp(origin._sp),
+	_N(origin._N)
 {}
 
 Span & Span::operator=(const Span& origin)

@@ -24,8 +24,8 @@ public:
 
 	std::string const getName() const;
 	bool 		getSign() const;
-	int const	getGradeSign() const;
-	int const	getGradeExec() const;
+	int			getGradeSign() const;
+	int			getGradeExec() const;
 	void		isSign(const Bureaucrat &bur);
 	void 		setSign();
 	void 		copySign(bool cpSign);	
