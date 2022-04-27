@@ -4,12 +4,12 @@
 ![100](https://user-images.githubusercontent.com/94758944/147550170-21d69d68-0bf5-4856-8029-8f77b10f53d6.png)
 
 ## Module
-- CPP_00
-- CPP_01
-- CPP_02
-- CPP_03
-- CPP_04
-- CPP_05
-- CPP_06
-- CPP_07
-- CPP_08
+- CPP_00 - This first module of C++ is designed to help you understand the specifities of the language when compared to C. Time to dive into Object Oriented Programming!
+- CPP_01 - This module is designed to help you understand the memory allocation, reference, pointers to members and the usage of the switch in CPP.
+- CPP_02 - This module is designed to help you understand Ad-hoc polymorphism, overloads and orthodox canonical classes in CPP.
+- CPP_03 - This module is designed to help you understand Inheritance in CPP.
+- CPP_04 - This module is designed to help you understand Subtype polymorphism, abstract classes and interfaces in CPP.
+- CPP_05 - This module is designed to help you understand Try/Catch and Exceptions in CPP.
+- CPP_06 - This module is designed to help you understand the different casts in CPP.
+- CPP_07 - This module is designed to help you understand Templates in CPP.
+- CPP_08 - This module is designed to help you understand templated containers, iterators and algorithms in CPP.
